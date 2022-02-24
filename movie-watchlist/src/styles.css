@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:focus-within ~ label,
+input:not(:placeholder-shown) ~ label {
+    @apply transform scale-75 -translate-y-6 text-blue-500;
+}
+
+input:focus-within ~ label {
+    @apply text-blue-500;
+  }
+
+.movie-card {
+    @apply bg-gray-100 text-gray-600 rounded overflow-hidden shadow-md col-span-6 cursor-move sm:col-span-5 md:col-span-4 lg:col-span-4;
+}
+
+.watch-movie-drag {
+    @apply bg-blue-300 shadow-lg text-gray-600 rounded overflow-hidden col-span-6 sm:col-span-5 md:col-span-4 lg:col-span-4;
+}
+
+.fav-movie-drag {
+    @apply bg-yellow-200 text-gray-600 rounded overflow-hidden shadow-md col-span-6 sm:col-span-5 md:col-span-4 lg:col-span-4;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "movie-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i src/styles.css -o public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "stylelint": "^14.5.3",
+    "stylelint-config-standard": "^25.0.0",
+    "tailwindcss-debug-screens": "^2.2.1"
+  }
+}
